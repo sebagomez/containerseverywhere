@@ -1,0 +1,1 @@
+docker run --rm -p 5432:5432 -e POSTGRES_PASSWORD=dbPassword -d --name postgres postgres:10-alpine

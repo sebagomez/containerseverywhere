@@ -1,0 +1,1 @@
+docker run --rm -p 11433:1433 -e ACCEPT_EULA=Y -e MSSQL_SA_PASSWORD=dbPassword! -e MSSQL_PID=Developer -d --name sqlserver2019 mcr.microsoft.com/mssql/server:vNext-CTP2.0-ubuntu
